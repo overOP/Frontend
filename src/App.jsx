@@ -5,6 +5,8 @@ import Card from './components/Card'
 import Color from './components/Colorr'
 import Img from './components/img'
 import Counter from './components/counter'
+//UseContext
+import Home from './UseContext/Home'
 
 const App = () => {
   //title
@@ -52,6 +54,7 @@ const App = () => {
        <h1 className=' flex justify-center text-white'>Counter by useState</h1>
        <Counter/>
        </div>
+       <Home/>
     </React.Fragment>
   )
 }
