@@ -7,6 +7,10 @@ import Img from './components/img'
 import Counter from './components/counter'
 //UseContext
 import Home from './UseContext/Home'
+//UseEffect
+import Count from './UseEffect/Count'
+import EffectApi from './UseEffect/EffectApi'
+import Counterr from './UseEffect/Counterr'
 
 const App = () => {
   //title
@@ -54,7 +58,13 @@ const App = () => {
        <h1 className=' flex justify-center text-white'>Counter by useState</h1>
        <Counter/>
        </div>
+       {/* UseContext */}
        <Home/>
+
+       {/* UseEffect */}
+       <Count/>
+       <EffectApi/>
+       <Counterr/>
     </React.Fragment>
   )
 }

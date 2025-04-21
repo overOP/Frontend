@@ -24,7 +24,7 @@ const Home = () => {
           <p>{data1}</p>
         </div>
       </div>
-      <p className='flex justify-center items-center gap-11'><Contact/></p>
+      <div className='flex justify-center items-center gap-11'><Contact/></div>
     </DataContext.Provider>
     </>
   )
