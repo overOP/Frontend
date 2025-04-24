@@ -1,30 +1,7 @@
-import { useState } from 'react'
+import CounTer from "../hook/Counterrr"
 
 const Counter = () => {
-    const [count, setCount] = useState(0)
-    const Add = () => {
-        setCount(count + 1)
-        if (count === 10) {
-            setCount(0)
-        }
-    }
-    const Sub = () => {
-        setCount(count - 1)
-        if (count === -10) {
-            setCount(0)
-        }
-    }
-    const Reset = () => {
-        setCount(0)
-    }
-
-    const Previous = () => {
-        // setCount(count - 1)
-        setCount((prevCount) => prevCount - 1)
-        if (count === -10) {
-            setCount(0)
-        }
-    }
+    const {Add, Sub, Reset, Previous, count} = CounTer()
 
   return (
     <>
