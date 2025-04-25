@@ -11,6 +11,10 @@ import Home from './UseContext/Home'
 import Count from './UseEffect/Count'
 import EffectApi from './UseEffect/EffectApi'
 import Counterr from './UseEffect/Counterr'
+//UseRef
+import TrackApp from './useRef/TrackApp'
+import FocusInput from './useRef/FocusInput'
+import PreviousValues from './useRef/PreviousValues'
 
 const App = () => {
   //title
@@ -65,6 +69,10 @@ const App = () => {
        <Count/>
        <EffectApi/>
        <Counterr/>
+       {/* UseRef */}
+       <TrackApp/>
+       <FocusInput/>
+       <PreviousValues/>
     </React.Fragment>
   )
 }
