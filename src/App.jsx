@@ -5,6 +5,10 @@ import Card from './components/Card'
 import Color from './components/Colorr'
 import Img from './components/img'
 import Counter from './components/counter'
+//UseState
+import UpdateState from './UseState/UpdateState'
+import MultipleState from './UseState/MultipleState'
+import SingleObject from './UseState/SingleObject'
 //UseContext
 import Home from './UseContext/Home'
 //UseEffect
@@ -15,6 +19,7 @@ import Counterr from './UseEffect/Counterr'
 import TrackApp from './useRef/TrackApp'
 import FocusInput from './useRef/FocusInput'
 import PreviousValues from './useRef/PreviousValues'
+
 
 const App = () => {
   //title
@@ -62,6 +67,10 @@ const App = () => {
        <h1 className=' flex justify-center text-white'>Counter by useState</h1>
        <Counter/>
        </div>
+       {/* UseState */}
+       <UpdateState/>
+       <MultipleState/>
+        <SingleObject/>
        {/* UseContext */}
        <Home/>
 
