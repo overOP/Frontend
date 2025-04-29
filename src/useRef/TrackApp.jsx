@@ -9,7 +9,8 @@ const TrackApp = () => {
         count.current = count.current + 1;
     });
   return (
-    <div className='flex flex-col items-center justify-center '>
+    <div className='flex flex-col items-center justify-center bg-purple-200 mt-5'>
+    <h1 className='text-3xl font-bold text-center'>useRef</h1>
     <h1>
         Track App
     </h1>

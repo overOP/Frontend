@@ -10,7 +10,7 @@ const SingleObject = () => {
       });
     
   return (
-    <div >
+    <div className='flex flex-col justify-center items-center  mt-5 bg-blue-200'>
     <h1>My {car.brand}</h1>
       <p>
         It is a {car.color} {car.model} from {car.year}.

@@ -9,7 +9,7 @@ const Counterr = () => {
       setCalculation(() => count * 2);
     }, [count]); // <- add the count variable here
   return (
-    <div className='flex justify-center flex-col items-center bg-slate-600 text-white'>
+    <div className='flex justify-center flex-col items-center bg-green-200 mt-5'>
             <p>Count: {count}</p>
       <button className='bg-slate-400 border border-black rounded-lg w-8' onClick={() => setCount((c) => c + 1)}>+</button>
       <p>Calculation: {calculation}</p>

@@ -9,7 +9,7 @@ const FocusInput = () => {
     };
   
   return (
-    <div className='flex flex-col items-center justify-center '>
+    <div className='flex flex-col items-center justify-center bg-purple-200 mt-5'>
     <h1>
         Focus Input
     </h1>

@@ -34,7 +34,7 @@ const EffectApi = () => {
         }
       };
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center  mt-5 bg-green-200'>
       {user ? (
         <div>
           <strong>ID:</strong> {user.id} <br />

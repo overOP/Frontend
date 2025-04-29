@@ -9,7 +9,7 @@ const PreviousValues = () => {
       previousInputValue.current = inputValue;
     }, [inputValue]);
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center bg-purple-200 mt-5'>
     <input
         type="text"
         value={inputValue}

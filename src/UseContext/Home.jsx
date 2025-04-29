@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <>
     <DataContext.Provider value={ dataall}>
+    <div className='flex flex-col justify-center items-center bg-yellow-200 mt-5'>
       <h1 className='text-3xl font-bold text-center'>UseContext</h1>
       <div className='flex justify-center items-center'>
         <div className='w-32 bg-stone-300 rounded-2xl shadow-2xl p-5'>
@@ -25,6 +26,7 @@ const Home = () => {
         </div>
       </div>
       <div className='flex justify-center items-center gap-11'><Contact/></div>
+      </div>
     </DataContext.Provider>
     </>
   )
