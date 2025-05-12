@@ -19,6 +19,8 @@ const EffectApi = () => {
     //     fetchData();
     //   }, []);
 
+    
+
     useEffect(() => {
         datafetch();
       }, []);
